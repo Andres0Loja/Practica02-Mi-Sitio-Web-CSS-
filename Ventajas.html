@@ -2,61 +2,40 @@
 <html lang="es">
 
 <head>
+    <!--
+    “Practica02 – Mi Sitio Web (CSS)”
+    
+    Author: Andres Loja
+    Date: 14/4/2019  
+
+    Filename: Ventajas.html
+   -->
     <meta charset="UTF-8">
-    <style>
-        h1 {
-            font-family: "Homer Simpson", cursive;
-            color: white;
-        }
-
-        h2 {
-            font-size: 125%;
-            color: white;
-        }
-
-        a {
-            color: white;
-        }
-
-        p {
-            color: white;
-            font-family: Arial;
-        }
-
-        table {
-            border: 1px solid white;
-            color: teal;
-        }
-
-        li {
-            color: white
-        }
-    </style>
     <title>Ventajas</title>
-
+    <link href="CSS/Tres Columnas.css" rel="stylesheet" />
+    <link href="CSS/Reglas.css" rel="stylesheet" />
 </head>
 
-<body style="background-color: black;">
-
-
+<body>
     <section>
-        <header>
+        <header class="Encabezado">
             <img src="Imagenes/Lindex.png" width="200" height="150" alt="Logo">
             <h1>VENTAJAS DEL JUEGO EN LA NUBE</h1>
-            <h2>MENU DE NAVEGACION </h2>
+            
         </header>
-        <nav>
+        <nav class="Menu">
+                <h2>MENU DE NAVEGACION </h2>
             <a href="Index.html">Pagina Principal<br /></a>
             <a href="Nube.html">Juegos en la nube<br /></a>
             <a href="Google.html">Google Stadia<br /></a>
             <a href="Nvidia.html">Geforce Now<br /></a>
             <a href="Sony.html">PlayStation Now<br /></a>
         </nav>
-        <article>
+        <article class="Articulo">
             <h2>
                 TABLA COMPARATIVA
             </h2>
-            <table class="egt">
+            <table class="Tabla">
                 <tr>
                     <th rowspan="2">FILA</th>
                     <th colspan="2">
@@ -114,7 +93,7 @@
         </aside>
     </section>
 
-    <footer style=color:white>
+    <footer class="Pie">
         <p> <br />Andr&eacute;s Fernando Loja Morocho<br /></p>
         <p> Universidad Politecnica Saleciana<br /></p>
         <a href="mailto:alojam@est.ups.edu.ec">Correo<br /></a>

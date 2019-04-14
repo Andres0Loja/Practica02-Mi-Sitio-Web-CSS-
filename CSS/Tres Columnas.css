@@ -1,0 +1,47 @@
+/*background-color: rgb(219, 199, 84)*/
+
+/*style="background-color: rgb(18, 18, 104);"*/
+
+.Encabezado {
+    width: 100%;
+    float: left;
+}
+
+.Menu {
+    width: 25%;
+    /*height: 11cm;*/
+    float: left;
+    border: red 1px solid;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background-color: #7B9DD5;
+}
+
+nav a {
+    margin: 5px;
+    text-decoration: none;
+}
+
+.Articulo {
+    width: 50%;
+    float: left;
+    margin: 0.25cm
+}
+
+.Pie {
+    width: 100%;
+    float: left;
+}
+
+.Ima {
+    width: 200px;
+    height: 150px;
+}
+
+.Tabla {
+    border: red 5px solid;
+}
+
+.Tbody {
+    border: red 5px solid;
+}

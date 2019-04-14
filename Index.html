@@ -2,46 +2,36 @@
 <html lang="es">
 
 <head>
+    <!--
+    “Practica02 – Mi Sitio Web (CSS)”
+    
+    Author: Andres Loja
+    Date: 14/4/2019  
+
+    Filename: Index.html
+   -->
     <meta charset="UTF-8">
-    <style>
-        h1 {
-            font-family: "Homer Simpson", cursive;
-            color: white;
-        }
-
-        h2 {
-            font-size: 100%;
-            color: white;
-        }
-
-        a {
-            color: white;
-        }
-
-        p {
-            color: white;
-            font-family: Arial;
-        }
-    </style>
-    <title>Menu</title>
-    <link href="CSS/index.css" rel="stylesheet" />
+    <title>Index</title>
+    <link href="CSS/Dos Columnas.css" rel="stylesheet" />
+    <link href="CSS/Reglas.css" rel="stylesheet" />
 </head>
 
-<body style="background-color: black;">
-    <section id="yo">
-        <header>
+<body id="index">
+    <section>
+        <header id="titulo">
             <img src="Imagenes/Lindex.png" width="200" height="150" alt="Logo">
             <h1>Video Juegos En La Nube</h1>
-            <h2>MENU DE NAVEGACION </h2>
+
         </header>
-        <nav>
-            <a href="Nube.html">Juegos en la nube<br /></a>
+        <nav id="navegacion">
+            <h2>MENU DE NAVEGACION </h2>
+            <a href="Nube.html">Juegos en la nube<br /> </a>
             <a href="Ventajas.html">Ventajas<br /></a>
             <a href="Google.html">Google Stadia<br /></a>
             <a href="Nvidia.html">Geforce Now<br /></a>
             <a href="Sony.html">PlayStation Now<br /></a>
         </nav>
-        <article>
+        <article class="contenido">
             <h2>DEFINICION </h2>
             <p>
                 Juego en la nube, también llamado juego bajo demanda, es un tipo de juego en línea que permite la
@@ -50,13 +40,13 @@
                 directamente a las computadoras con acceso al servidor a través del cliente.
             </p>
         </article>
-        <aside>
+        <aside class="contenido">
             <h2>Suscripci&oacute;n a la pagina</h2>
             <img class="ima" src="Imagenes/Aindex.png" width="200" height="150" alt="Proximamente">
         </aside>
     </section>
-    <footer style=color:white>
-        <p> <br />Andr&eacute;s Fernando Loja Morocho<br /></p>
+    <footer class="pie">
+        <p> <br />Andr&eacute;s Fernando Loja Morocho</p>
         <p> Universidad Politecnica Saleciana<br /></p>
         <a href="mailto:alojam@est.ups.edu.ec">Correo<br /></a>
         <a href="tel:0984890578">Telefono <br /></a>

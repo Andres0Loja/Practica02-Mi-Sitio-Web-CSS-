@@ -1,0 +1,39 @@
+#titulo {
+    width: 100%;
+    float: left;
+}
+
+#navegacion {
+    width: 25%;
+    /*height: 11cm;*/
+    float: left;
+    border: red 1px solid;
+    -moz-border-radius: 19px;
+    -webkit-border-radius: 19px;
+    background-color: #7B9DD5;
+    
+}
+
+nav a {
+    margin: 5px;
+    text-decoration: none;
+    
+}
+
+.contenido {
+    width: 74%;
+    float: left;
+}
+
+/*{
+    border: red 1px solid;
+}*/
+
+.pie {
+    width: 100%;
+    float: left;
+}
+
+#index {
+    background-color: rgb(234, 238, 10);
+}

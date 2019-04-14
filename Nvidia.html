@@ -2,46 +2,37 @@
 <html lang="es">
 
 <head>
+    <!--
+    “Practica02 – Mi Sitio Web (CSS)”
+    
+    Author: Andres Loja
+    Date: 14/4/2019  
+
+    Filename: Nvidia.html
+   -->
     <meta charset="UTF-8">
-    <style>
-        h1 {
-            font-family: "Homer Simpson", cursive;
-            color: white;
-        }
-
-        h2 {
-            font-size: 100%;
-            color: white;
-        }
-
-        a {
-            color: white;
-        }
-
-        p {
-            color: white;
-            font-family: Arial;
-        }
-    </style>
     <title>Nvidia</title>
+    <link href="CSS/Tres Columnas.css" rel="stylesheet" />
+    <link href="CSS/Reglas.css" rel="stylesheet" />
 </head>
 
-<body style="background-color: black;">
+<body>
 
     <section>
-        <header>
+        <header class="Encabezado">
             <img src="Imagenes/Lnvidia.jpg" width="200" height="150" alt="Logo">
             <h1>GEFORCE NOW</h1>
-            <h2>MENU DE NAVEGACION </h2>
+            
         </header>
-        <nav>
+        <nav class="Menu">
+                <h2>MENU DE NAVEGACION </h2>
             <a href="Index.html">Pagina Principal<br /></a>
             <a href="Nube.html">Juegos en la nube<br /></a>
             <a href="Ventajas.html">Ventajas<br /></a>
             <a href="Google.html">Google Stadia<br /></a>
             <a href="Sony.html">PlayStation Now<br /></a>
         </nav>
-        <article>
+        <article class="Articulo">
             <h2>Servicio</h2>
             <p>GeForce Now es una plataforma de juego en streaming en la nube. Es decir, los ordenadores de Nvidia son
                 los que ejecutan el juego que elijamos y en nuestro dispositivo recibiremos la señal de vídeo
@@ -66,7 +57,7 @@
             <img src="Imagenes/Anvidia.png" width="200" height="150" alt="Publicidad">
         </aside>
     </section>
-    <footer style=color:white>
+    <footer class="Pie">
         <p> <br />Andr&eacute;s Fernando Loja Morocho<br /></p>
         <p> Universidad Politecnica Saleciana<br /></p>
         <a href="mailto:alojam@est.ups.edu.ec">Correo<br /></a>
