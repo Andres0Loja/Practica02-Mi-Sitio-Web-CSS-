@@ -1,18 +1,19 @@
-/*background-color: rgb(219, 199, 84)*/
-
-/*style="background-color: rgb(18, 18, 104);"*/
+/*background-color: rgb(219, 199, 84)
+background-color: #7B9DD5;
+#EF7651
+style="background-color: rgb(18, 18, 104);"*/
 
 .Encabezado {
-    width: 100%;
+    width: 99%;
     float: left;
+    border: #1d4b4d 1px solid;
+    margin: 0.25cm;
 }
 
 .Menu {
     width: 25%;
-    /*height: 11cm;*/
     float: left;
     border: red 1px solid;
-    -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     background-color: #7B9DD5;
 }
@@ -31,17 +32,13 @@ nav a {
 .Pie {
     width: 100%;
     float: left;
+    border: #1d4b4d 1px solid;
 }
 
 .Ima {
-    width: 200px;
-    height: 150px;
+    width: 5cm;
+    height: 3.75cm;
 }
-
-.Tabla {
-    border: red 5px solid;
-}
-
-.Tbody {
-    border: red 5px solid;
+body{
+    background-color: #201f22;
 }
