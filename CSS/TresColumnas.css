@@ -1,8 +1,3 @@
-/*background-color: rgb(219, 199, 84)
-background-color: #7B9DD5;
-#EF7651
-style="background-color: rgb(18, 18, 104);"*/
-
 .Encabezado {
     width: 99%;
     float: left;
@@ -21,6 +16,7 @@ style="background-color: rgb(18, 18, 104);"*/
 nav a {
     margin: 5px;
     text-decoration: none;
+    line-height: 25px;
 }
 
 .Articulo {
@@ -39,6 +35,7 @@ nav a {
     width: 5cm;
     height: 3.75cm;
 }
-body{
+
+body {
     background-color: #201f22;
 }
