@@ -1,12 +1,11 @@
 # Practica02-Mi-Sitio-Web-CSS-
-<p>Esta practica contiene los fundamen basicos de una pagina html</p>
+<p>Esta practica contiene los fundamen basicos de css</p>
 <h1>Objective</h1
 <ul>
-  <li> Create the structure of an HTML document</li>
-  <li> Crear tablas en HTML</li>
-  <li>Insert HTML elements and attributes </li>
-  <li> Mark content using lists create a navigation list</li>
-  <li> link to files within a website with hypertext links</li>
+  <li> Crear paginas html utilizando css</li>
+  <li> Entender y organizar de una mejor manera los sitios de web en Internet</li>
+  <li> Diseñar adecuadamente elementos gráficos en sitios web en Internet</li>
+  <li> Crear sitios web aplicando estándares actuales</li>
 </ul>
 <h1>Index</h1>
 <ul>
@@ -35,6 +34,18 @@
 <h1>Sony</h1>
 <ul>
   <li>PlayStation Now</li>
+</ul>
+<h1>DosColumnas</h1>
+<ul>
+  <li>Archivo css que permite estructurar las paginas en 2 columnas</li>
+</ul>
+<h1>TreColumnas</h1>
+<ul>
+  <li>Archivo css que permite estructurar las paginas en 3 columnas</li>
+</ul>
+<h1>Reglas</h1>
+<ul>
+  <li>Archivo css que contiene las reglas y diseños de los textos</li>
 </ul>
 <h1> Datos Personale</h1> 
   <p>Andres Loja </p>
